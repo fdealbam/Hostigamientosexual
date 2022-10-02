@@ -718,8 +718,8 @@ body = html.Div([
     
      dbc.Row(
            [
-               dbc.Col(dbc.Button(([html.P("Chihuahua", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/Hostigamientosexual/blob/main/application/static/ch.jpeg?raw=true",
+               dbc.Col(dbc.Button(([html.P(edoname1, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/Hostigamientosexual/blob/main/application/static/Mapa Veracruz de Ignacio de la Llave.png?raw=true",
                   style={'size': 2,}),
                           html.P(bulletedo1,
                      style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
@@ -730,8 +730,8 @@ body = html.Div([
                          
                          }, disabled=True)),
                
-               dbc.Col(dbc.Button(([html.P("Tabasco", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/Hostigamientosexual/blob/main/application/static/tab.jpeg?raw=true",
+               dbc.Col(dbc.Button(([html.P(edoname2, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/Hostigamientosexual/blob/main/application/static/Mapa Tabasco.png?raw=true",
                                     style={'size': 2,}),
                        html.P(bulletedo2,
                               style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
@@ -749,8 +749,8 @@ body = html.Div([
     html.Br(),
     
                 dbc.Row([
-          dbc.Col(dbc.Button(([html.P("Veracruz", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/Hostigamientosexual/blob/main/application/static/ver.jpeg?raw=true"),
+          dbc.Col(dbc.Button(([html.P(edoname3, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/Hostigamientosexual/blob/main/application/static/Mapa Chihuahua.png?raw=true"),
     
                        html.P(bulletedo3,
                            style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
@@ -761,8 +761,8 @@ body = html.Div([
                          
                          }, disabled=True)),
                        
-               dbc.Col(dbc.Button(([html.P("Baja California", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/Hostigamientosexual/blob/main/application/static/bc.jpeg?raw=true"),
+               dbc.Col(dbc.Button(([html.P(edoname4, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/Hostigamientosexual/blob/main/application/static/Mapa Baja California.png?raw=true"),
              
                                      html.Br(),
                                      html.Br(),
